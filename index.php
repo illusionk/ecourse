@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/furatto.css" rel="stylesheet" />
+    <link href="css/furatto.min.css" rel="stylesheet" />
     <link href="css/bootstrap-responsive.css" rel="stylesheet" />
   </head>
   <body>      
@@ -49,9 +49,8 @@
       </div>
 
     </div>
-    <!--<script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/jpanel.js"></script>
     <script src="js/jquery.dropkick-1.0.0.js"></script>
