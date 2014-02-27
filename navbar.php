@@ -1,9 +1,5 @@
 <?php
-
-  if ($_SESSION['timeout'] + 10 * 60 < time())
-    session_destroy();
   require_once('lib/courseList.php');
-
 ?>
   <div class="navbar navbar-fixed-top navbar-alpha">
     <div class="navbar-inner">

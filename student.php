@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php
-  
-  session_start();
+  require_once("auth.php");
   $_SESSION['id'] = $_GET['id'];
   require_once('lib/getStudentList.php');
 ?>

@@ -35,6 +35,13 @@
           <h4 class=\"header\">已經登出系統</h4>
         </div>\n";
     }
+    if ($_GET['code'] == "3") {
+      echo "
+        <div class=\"alert alert-danger\">
+          <button type=\"button\" class=\"close\">x</button>
+          <h4 class=\"header\">授權失敗, 可能已經登出或閒置過久</h4>
+        </div>\n";
+    }
 ?>  
           <input type="text" id="inputUsername" placeholder="學號" name="username">
           <input type="password" id="inputPassword" placeholder="密碼" name="password">

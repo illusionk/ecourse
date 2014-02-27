@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <?php
+  require_once("auth.php");
   require_once('lib/getKiki.php');
-
-  session_start();
+  
   if ($_SESSION['timeout'] + 10 * 60 < time())
     session_destroy();
 
@@ -10,6 +9,7 @@
 
   $course_list = $score->getList();
 ?>
+<!DOCTYPE html>
 <html lang="zh-tw">
   <head>
     <meta charset="utf-8">
@@ -46,6 +46,9 @@
 ?>
               </ul>
             </li>
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="./logout.php">登出</a></li>
           </ul>
         </nav>
       </div>

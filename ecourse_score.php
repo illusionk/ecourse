@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php
+  require_once("auth.php");
   require_once('lib/getEcourseScore.php');
 ?>
+<!DOCTYPE html>
 <html lang="zh-tw">
 <head>
   <meta charset="utf-8">

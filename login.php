@@ -29,6 +29,7 @@
 			preg_match("/PHPSESSID=(.+?)&/", $login_result, $PHPSESSID_unslice);
 			$_SESSION['PHPSESSID'] = $PHPSESSID_unslice[1];
 			$_SESSION['timeout'] = time();
+			$_SESSION['idy'] = true;
 			header('Location: ecourse_score.php');
 		}
 		else {
@@ -61,6 +62,7 @@
 		}
 		else {
 			$_SESSION['timeout'] = time();
+			$_SESSION['idy'] = true;
 			header('Location: kiki.php');
 		}
 	}
